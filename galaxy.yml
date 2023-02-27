@@ -1,0 +1,31 @@
+---
+namespace: occ
+name: tools
+version: 0.0.0
+readme: README.md
+
+authors:
+  - Simon Baerlocher (@sbaerlocher)
+  - Open Circle AG (@occ)
+
+description: "This is an Ansible collection that configures system"
+
+license:
+  - MIT
+
+tags:
+  - wazuh
+
+dependencies:
+  devsec.hardening: '>=8.0.0'
+  ansible.posix: '>=1.4.0'
+
+repository: https://github.com/open-circle-ltd/ansible.tools
+
+documentation: https://github.com/open-circle-ltd/ansible.tools
+
+# homepage: http://example.com
+
+issues: https://github.com/open-circle-ltd/ansible.tools/issues
+
+build_ignore: []
